@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "247806364390",
+    "firebase_url": "https://messanger-e14be-default-rtdb.firebaseio.com",
+    "project_id": "messanger-e14be",
+    "storage_bucket": "messanger-e14be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247806364390:android:22b1d06ddfa40e917b8927",
+        "android_client_info": {
+          "package_name": "com.example.idivpr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247806364390-9clut2s6q3j3ug84629s2516rl7pr7ha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuTeKx4_DGtINXnD6pN68XzXV-94Lzgcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247806364390-9clut2s6q3j3ug84629s2516rl7pr7ha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247806364390:android:99f1e63e692ae9757b8927",
+        "android_client_info": {
+          "package_name": "com.example.messanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247806364390-9clut2s6q3j3ug84629s2516rl7pr7ha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuTeKx4_DGtINXnD6pN68XzXV-94Lzgcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247806364390-9clut2s6q3j3ug84629s2516rl7pr7ha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247806364390:android:6d790c75bcebd2d37b8927",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247806364390-9clut2s6q3j3ug84629s2516rl7pr7ha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuTeKx4_DGtINXnD6pN68XzXV-94Lzgcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247806364390-9clut2s6q3j3ug84629s2516rl7pr7ha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

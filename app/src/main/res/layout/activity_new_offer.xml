@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".New_offer"
+    android:orientation="vertical">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <ImageButton
+            android:id="@+id/goBack2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:background="@color/white"
+            android:onClick="onCancelClick"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/deleteOffer"
+            app:layout_constraintRight_toRightOf="parent"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:background="@color/white"
+            android:layout_marginRight="30dp"
+            android:onClick="onCancelClick"
+            android:padding="5dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/photos"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:layoutManager = "androidx.recyclerview.widget.LinearLayoutManager">
+            </androidx.recyclerview.widget.RecyclerView>
+            <EditText
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Название услуги"
+                android:inputType="textAutoCorrect|textCapSentences"
+                android:paddingTop="40dp"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/product_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Опишите услугу"
+                android:inputType="textAutoCorrect|textCapSentences"
+                android:paddingTop="40dp"
+                android:textSize="20sp"/>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewFind"
+                android:id="@+id/constr1"
+                android:layout_height="wrap_content"
+                android:paddingTop="40dp">
+                <TextView
+                    android:id="@+id/mycatview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Категория предоставляемой услуги"
+                    android:paddingLeft="10dp"
+                    android:textSize="15sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/catGet_newoffer"
+                    app:layout_constraintTop_toBottomOf="@id/mycatview"
+                    android:layout_height="wrap_content"
+                    android:hint="Выберите услугу"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:textSize="20dp"
+                    android:padding="20dp"
+                    android:focusable="true"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginEnd="50dp" />
+                <ImageButton
+                    android:id="@+id/cancel11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:onClick="onCancelClick"
+                    android:clickable="true"
+                    app:layout_constraintTop_toTopOf="@id/catGet_newoffer"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@id/catGet_newoffer"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_baseline_cancel_24"
+                    android:focusable="true"
+                    android:paddingEnd="20dp" />
+
+                <TextView
+                    android:id="@+id/retcatview"
+                    android:layout_width="101dp"
+                    android:layout_height="31dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Стоимость"
+                    android:textSize="15sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/catGet_newoffer" />
+                <EditText
+                    android:id="@+id/service_cost"
+                    android:layout_width="match_parent"
+                    app:layout_constraintTop_toBottomOf="@id/retcatview"
+                    android:layout_height="wrap_content"
+                    android:hint="Укажите стоимость"
+                    android:inputType="numberDecimal"
+                    android:textSize="20sp"
+                    android:padding="20dp"
+                    android:focusable="true"
+                    android:layout_marginRight="50dp"/>
+                <ImageButton
+                    android:id="@+id/cancel22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:onClick="onCancelClick"
+                    android:clickable="true"
+                    app:layout_constraintTop_toTopOf="@id/service_cost"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@id/service_cost"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_baseline_cancel_24"
+                    android:focusable="true"
+                    android:paddingEnd="20dp" />
+
+                <TextView
+                    app:layout_constraintTop_toBottomOf="@id/service_cost"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:id="@+id/start_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold|italic"
+                    android:text="Начало рабочего дня | "/>
+                <TextView
+                    app:layout_constraintTop_toBottomOf="@id/start_time"
+                    android:onClick="setTime"
+                    android:id="@+id/start_clock"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    tools:ignore="UsingOnClickInXml" />
+                <TextView
+                    app:layout_constraintTop_toBottomOf="@id/service_cost"
+                    app:layout_constraintLeft_toRightOf="@id/start_time"
+                    android:id="@+id/end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold|italic"
+                    android:text="Конец рабочего дня | " />
+                <TextView
+                    app:layout_constraintTop_toBottomOf="@id/start_time"
+                    app:layout_constraintLeft_toLeftOf="@id/end_time"
+                    android:onClick="setTime"
+                    android:id="@+id/end_clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    tools:ignore="UsingOnClickInXml" />
+                <TextView
+                    app:layout_constraintTop_toBottomOf="@id/service_cost"
+                    app:layout_constraintLeft_toRightOf="@id/end_time"
+                    android:id="@+id/unit_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold|italic"
+                    android:text="Время приема" />
+                <TextView
+                    app:layout_constraintTop_toBottomOf="@id/unit_time"
+                    app:layout_constraintLeft_toLeftOf="@id/unit_time"
+                    android:onClick="setTime"
+                    android:id="@+id/unit_clock"
+                    android:textStyle="bold|italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="UsingOnClickInXml" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <Button
+                android:id="@+id/Place_an_ad"
+                app:layout_constraintTop_toBottomOf="@id/service_cost"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:text="Разместить"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="30dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

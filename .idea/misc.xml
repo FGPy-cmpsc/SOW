@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/IndProj/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.1712962962962963" />
+        <entry key="..\:/IndProj/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.1712962962962963" />
+        <entry key="..\:/IndProj/app/src/main/res/drawable/item_message.xml" value="0.16111111111111112" />
+        <entry key="..\:/IndProj/app/src/main/res/drawable/myrect.xml" value="0.21614583333333334" />
+        <entry key="..\:/IndProj/app/src/main/res/drawable/navigation_menu.xml" value="0.16111111111111112" />
+        <entry key="..\:/IndProj/app/src/main/res/drawable/text.xml" value="0.18611111111111112" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/activity_filter.xml" value="0.4466666666666667" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/activity_message.xml" value="0.16666666666666666" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/activity_new_offer.xml" value="0.3333333333333333" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/activity_offer_activity.xml" value="0.12" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/activity_photo_review.xml" value="0.2" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/activity_product_category.xml" value="0.10144927536231885" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/activity_registration.xml" value="0.22" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/activity_search_offer.xml" value="0.2" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/activity_show_pictures.xml" value="0.1" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/category_item.xml" value="0.10144927536231885" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/celection_item.xml" value="0.10144927536231885" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/enroll_lay2.xml" value="0.1" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/fragment_chat_selection.xml" value="0.14666666666666667" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/fragment_choose_act_to_show.xml" value="0.22" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/fragment_date_pick.xml" value="0.2" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/fragment_enroll.xml" value="0.6" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/fragment_foto_fragment.xml" value="0.16666666666666666" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/fragment_info_about_user.xml" value="0.1" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/fragment_my_offers.xml" value="0.22" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/fragment_search_offer.xml" value="0.13333333333333333" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/fragment_show_pict.xml" value="0.1" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/item_message.xml" value="0.22" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/new_offer_item.xml" value="0.6" />
+        <entry key="..\:/IndProj/app/src/main/res/layout/search_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/IndProj/app/src/main/res/menu-v26/navigation_menu.xml" value="0.2" />
+        <entry key="..\:/IndProj/app/src/main/res/menu/navigation_menu.xml" value="0.2" />
+        <entry key="..\:/IndProj/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16974358974358975" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
